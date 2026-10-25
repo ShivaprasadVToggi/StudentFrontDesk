@@ -1,0 +1,17 @@
+{
+  "name": "college-front-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "College Front Desk Management System — Salesforce DX metadata project (Visitor, Student Enquiry, Appointment objects, Lightning app, list views, validation rules, permission sets).",
+  "scripts": {
+    "deploy": "bash scripts/deploy.sh",
+    "retrieve": "sf project retrieve start -d force-app --ignore-conflicts",
+    "validate": "sf project deploy start -d force-app --check-only --ignore-conflicts"
+  },
+  "devDependencies": {
+    "@salesforce/cli": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

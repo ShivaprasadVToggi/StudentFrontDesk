@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolved_Enquiries</fullName>
+<columns>Enquirer_Name__c</columns>
+<columns>Subject__c</columns>
+<columns>Enquiry_Category__c</columns>
+<columns>Resolved_Date__c</columns>
+<columns>Assigned_Staff__c</columns>
+
+    <filterScope>Everything</filterScope>
+    <filters><field>Status__c</field><operation>equals</operation><value>Resolved</value></filters>
+    <label>Resolved Enquiries</label>
+    <language>en_US</language>
+</ListView>

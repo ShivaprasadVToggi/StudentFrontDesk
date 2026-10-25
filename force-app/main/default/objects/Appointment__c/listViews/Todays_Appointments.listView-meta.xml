@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todays_Appointments</fullName>
+<columns>Visitor_Name__c</columns>
+<columns>Staff_Member__c</columns>
+<columns>Department__c</columns>
+<columns>Appointment_Date_Time__c</columns>
+<columns>Status__c</columns>
+<columns>Purpose__c</columns>
+
+    <filterScope>Everything</filterScope>
+    <filters><field>Appointment_Date_Time__c</field><operation>equals</operation><value>TODAY</value></filters>
+    <label>Today's Appointments</label>
+    <language>en_US</language>
+</ListView>

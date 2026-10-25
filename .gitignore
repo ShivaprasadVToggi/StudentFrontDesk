@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Salesforce DX local state
+.sf/
+.sfdx/
+*.log
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.token
+/tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build output
+dist/
+build/
+out/

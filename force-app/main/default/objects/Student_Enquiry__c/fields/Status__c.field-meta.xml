@@ -1,0 +1,18 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>New</fullName><default>true</default><label>New</label></value>
+<value><fullName>Assigned</fullName><default>false</default><label>Assigned</label></value>
+<value><fullName>In Progress</fullName><default>false</default><label>In Progress</label></value>
+<value><fullName>Waiting for Student</fullName><default>false</default><label>Waiting for Student</label></value>
+<value><fullName>Resolved</fullName><default>false</default><label>Resolved</label></value>
+<value><fullName>Closed</fullName><default>false</default><label>Closed</label></value>
+
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

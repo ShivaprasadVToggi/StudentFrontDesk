@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Assigned_Enquiries</fullName>
+<columns>Enquirer_Name__c</columns>
+<columns>Subject__c</columns>
+<columns>Enquiry_Category__c</columns>
+<columns>Priority__c</columns>
+<columns>Status__c</columns>
+<columns>Follow_Up_Date__c</columns>
+
+    <filterScope>Everything</filterScope>
+    <filters><field>Assigned_Staff__c</field><operation>equals</operation><value>$USER</value></filters>
+    <label>My Assigned Enquiries</label>
+    <language>en_US</language>
+</ListView>

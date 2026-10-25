@@ -1,0 +1,6 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_In_Time__c</fullName>
+    <label>Check-in Time</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

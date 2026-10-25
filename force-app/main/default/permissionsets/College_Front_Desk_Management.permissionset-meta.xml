@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>CFD Management</label>
+    <description>View-all access to front-desk records for reporting and dashboards.</description>
+    <applicationVisibilities><application>College_Front_Desk</application><visible>true</visible></applicationVisibilities>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><object>Visitor__c</object><viewAllRecords>false</viewAllRecords></objectPermissions>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><object>Student_Enquiry__c</object><viewAllRecords>false</viewAllRecords></objectPermissions>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><object>Appointment__c</object><viewAllRecords>false</viewAllRecords></objectPermissions>
+<fieldPermissions><editable>true</editable><field>Visitor__c.Email__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Visitor__c.Person_to_Meet__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Visitor__c.Check_In_Time__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Visitor__c.Check_Out_Time__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Visitor__c.Reception_Notes__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Student_Enquiry__c.Student_ID__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Student_Enquiry__c.Email__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Student_Enquiry__c.Description__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Student_Enquiry__c.Assigned_Staff__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Student_Enquiry__c.Follow_Up_Date__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Student_Enquiry__c.Overdue_Flag__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Student_Enquiry__c.Resolution_Notes__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Student_Enquiry__c.Resolved_Date__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Appointment__c.Visitor_Phone__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Appointment__c.Staff_Member__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Appointment__c.Purpose__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Appointment__c.Notes__c</field><readable>true</readable></fieldPermissions>
+
+    <tabSettings><tab>Visitor__c</tab><visibility>Visible</visibility></tabSettings>
+<tabSettings><tab>Student_Enquiry__c</tab><visibility>Visible</visibility></tabSettings>
+<tabSettings><tab>Appointment__c</tab><visibility>Visible</visibility></tabSettings>
+
+    <hasActivationRequired>false</hasActivationRequired>
+    <license>Salesforce</license>
+</PermissionSet>

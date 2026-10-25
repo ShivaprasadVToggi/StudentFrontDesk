@@ -1,0 +1,6 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visitor_Phone__c</fullName>
+    <label>Visitor Phone</label>
+    <required>false</required>
+    <type>Phone</type>
+</CustomField>

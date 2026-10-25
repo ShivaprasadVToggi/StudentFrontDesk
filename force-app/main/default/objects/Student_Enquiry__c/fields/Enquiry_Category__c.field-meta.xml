@@ -1,0 +1,23 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enquiry_Category__c</fullName>
+    <label>Enquiry Category</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Admissions</fullName><default>true</default><label>Admissions</label></value>
+<value><fullName>Fees</fullName><default>false</default><label>Fees</label></value>
+<value><fullName>Examination</fullName><default>false</default><label>Examination</label></value>
+<value><fullName>Scholarship</fullName><default>false</default><label>Scholarship</label></value>
+<value><fullName>Certificate</fullName><default>false</default><label>Certificate</label></value>
+<value><fullName>Attendance</fullName><default>false</default><label>Attendance</label></value>
+<value><fullName>Academics</fullName><default>false</default><label>Academics</label></value>
+<value><fullName>Hostel</fullName><default>false</default><label>Hostel</label></value>
+<value><fullName>Transport</fullName><default>false</default><label>Transport</label></value>
+<value><fullName>Complaint</fullName><default>false</default><label>Complaint</label></value>
+<value><fullName>Other</fullName><default>false</default><label>Other</label></value>
+
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
